@@ -40,6 +40,7 @@ function newText() {
     if (!/\W+/.test(words[i])) {
       //span.style('background-color', color(random(255), 0, random(255))); // random color
       span.mouseOver(highlight);
+      span.mousePressed(highlight);
     }
   }
   //console.log(words);
